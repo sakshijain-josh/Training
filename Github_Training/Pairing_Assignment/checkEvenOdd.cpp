@@ -10,7 +10,7 @@ int main() {
     if (num % 2 == 0) {
         cout << "The number is even." << endl;
     } else {
-        cout << "The number is od." << endl;
+        cout << "The number is odd." << endl;
     }
 
     return 0;
