@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Change Text</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    button { padding: 10px 14px; cursor: pointer; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+  <div id="message">Hello World</div>
+  <button id="changeBtn">Change Text</button>
+
+  <script>
+    const message = document.getElementById("message");
+    const changeBtn = document.getElementById("changeBtn");
+
+    changeBtn.addEventListener("click", () => {
+      message.textContent = "Text Changed Successfully";
+    });
+  </script>
+</body>
+</html>
